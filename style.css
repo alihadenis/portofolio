@@ -20,7 +20,7 @@ li a{
   text-decoration: none;
 }
 .bar{
-  display: block;
+  display: none;
   width: 30px;
   height: 5px;
   background-color: #fff;
@@ -57,6 +57,9 @@ li a{
   
   
   @media (max-width: 991px) {
+    .bar{
+      display: block;
+    }
     .active{
       float: none;
       text-align: left;
